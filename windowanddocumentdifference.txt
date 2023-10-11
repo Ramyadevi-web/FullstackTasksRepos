@@ -1,0 +1,31 @@
+Window:
+    It is root level of javascript object.
+    It gets laoded in the browser at first.
+    Properties related to window Properties are length,innerwidth,innerheight,cache.....
+
+     Syntax:
+        window.propertyname
+
+    Window object represent a window containing a DOM document.
+
+    Window.oper() -- Opens new window.
+
+    Window property holds information of browser screen
+
+Document:
+    It is indside the window object.
+    After windows get loaded, the documents gets started to load.
+    Properties related to document objects are title,URL,cookies.....
+    
+     Syntax:
+        window.document.propertyname  or document.propertyname
+
+        As a window is a global object so we don't need to mention that one.
+    Document is the property of window object
+    You can access document either by using window.document.propertyname or document.propertyname
+       
+          As window is global one, so that we can access the document directly.
+
+          document.open()  -- creates blank document
+
+    Document property holds the information of document(HTML doc)
